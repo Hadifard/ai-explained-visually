@@ -3,22 +3,12 @@ AI, explained visually: from one multiplication to ChatGPT.
 
 Renders a 720x1280 (vertical) explainer video frame by frame with matplotlib
 and pipes the frames straight into ffmpeg (H.264).
-
-Usage
------
-    python src/render.py test 5.0 20.0 40.0      # save single PNG frames at those times (seconds)
-    python src/render.py video 0 2406 out.mp4    # render frames [0, 2406) to out.mp4
-
-Most people should simply run build.py, which calls this script and also
-makes the GIF.
-
-Where to change things
-----------------------
-* Colours ............ the constants at the top (BLUE, ORANGE, TEAL, ...)
-* Captions ........... the caption(t, a, [(start, end, text), ...]) call at the end of each scene function
-* Timing ............. the SCENES list and DUR near the bottom of the file
-* A whole new scene .. write a function scene_x(t, a) and add it to SCENES
 """
+
+# ==============================================================================
+# Author  : Hadi Sarhangi Fard  |  GitHub: @Hadifard
+# ==============================================================================
+
 import os, sys, subprocess, textwrap
 import numpy as np
 import matplotlib
