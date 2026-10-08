@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+
+# ==============================================================================
+# Author  : Hadi Sarhangi Fard  |  GitHub: @Hadifard
+# ==============================================================================
+
 """Build the video (MP4) and the GIF.
 
     python build.py                 # full video + GIF into ./output
