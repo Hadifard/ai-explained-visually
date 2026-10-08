@@ -83,13 +83,6 @@ Everything lives in `src/render.py`:
 * The video is silent and the captions are in English.
 * ChatGPT is mentioned only as a well-known example of a chatbot. This project is not affiliated with OpenAI.
 
-## درباره‌ی این پروژه (فارسی)
-
-<div dir="rtl">
-
-یک ویدیوی آموزشی کوتاه (حدود ۸۰ ثانیه) که نشان می‌دهد هوش مصنوعی‌هایی مثل ChatGPT چگونه کار می‌کنند، برای کسی که هیچ پیش‌زمینه‌ای از هوش مصنوعی ندارد. ویدیو از یک ضرب ساده شروع می‌شود و قدم‌به‌قدم به نورون، لایه، شبکه‌ی عصبی، مکانیزم توجه (attention)، بلوک ترنسفورمر و در نهایت پیش‌بینی کلمه‌ی بعدی می‌رسد. کل ویدیو با کد پایتون ساخته شده است. برای ساخت دوباره‌اش دستور `python build.py` را اجرا کنید (به پایتون، کتابخانه‌های numpy و matplotlib و برنامه‌ی ffmpeg نیاز دارید).
-
-</div>
 
 ## License
 
